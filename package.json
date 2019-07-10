@@ -1,0 +1,27 @@
+{
+  "name": "react-native-touchable-scale",
+  "version": "1.0.0",
+  "description": "React native touchable scale button",
+  "main": "index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lipo11/react-native-touchable-scale.git"
+  },
+  "keywords": [
+    "touchable",
+    "scale",
+    "button"
+  ],
+  "author": "Alex Polomcak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lipo11/react-native-touchable-scale/issues"
+  },
+  "homepage": "https://github.com/Lipo11/react-native-touchable-scale#readme"
+}
