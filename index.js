@@ -1,1 +1,1 @@
-export * from './lib/touchable-scale.js';
+export * from './lib/touchable-resize.js';

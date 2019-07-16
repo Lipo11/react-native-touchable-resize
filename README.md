@@ -1,17 +1,17 @@
-# React native touchable scale button
+# React native touchable resize button
 If you want a button with scale animation, then the touchable scale library is your best option.
 
 ### Installing
 ```
-npm install react-native-touchable-scale --save
+npm install react-native-touchable-resize --save
 - or -
-yarn add react-native-touchable-scale
+yarn add react-native-touchable-resize
 ```
 
 ### Usage
 ```
 import React from 'react';
-import TouchableScale from 'react-native-touchable-scale';
+import TouchableResize from 'react-native-touchable-resize';
 
 export default class Example extends React.Component
 {
@@ -24,11 +24,11 @@ export default class Example extends React.Component
 	{
         return (
             <View>
-				<TouchableScale style={styles.image} onPress={this._callback.bind(this)}>
+				<TouchableResize style={styles.image} onPress={this._callback.bind(this)}>
 					<View>
 						<Text>{'Button'}</Text>
 					</View>
-				</TouchableScale>
+				</TouchableResize>
 			</View>
         );
     }
